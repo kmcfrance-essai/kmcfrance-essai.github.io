@@ -37,11 +37,11 @@
     "en": ""
   },
   "charte": {
-    "principale": "#51ABD2",
-    "principaleFoncee": "#B62F2F",
-    "principaleClaire": "#FCEEF2",
-    "secondaire": "#33D1B1",
-    "secondaireClaire": "#318F7D",
+    "principale": "#6051D2",
+    "principaleFoncee": "#5144B0",
+    "principaleClaire": "#EFEEFB",
+    "secondaire": "#BE33D1",
+    "secondaireClaire": "#D05CE0",
     "accent": "#290FEB"
   },
   "images": {
@@ -672,7 +672,7 @@
   ],
   "cafe": {
     "note": {
-      "fr": "Tous les bénéfices soutiennent le Centre de Méditation Kadampa France.",
+      "fr": "le Centre de Méditation Kadampa France.",
       "en": "All proceeds support the Kadampa Meditation Centre France."
     },
     "carte": [
