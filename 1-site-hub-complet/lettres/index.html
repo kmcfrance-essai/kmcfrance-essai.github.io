@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<!-- Le jeton GitHub ne peut partir que vers ce site et api.github.com -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.github.com; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<title>Lettres KBS</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2322594E'/%3E%3Crect x='7' y='9' width='18' height='14' rx='2' fill='none' stroke='%23fff' stroke-width='2.2'/%3E%3Cpath d='M7.5 10l8.5 7 8.5-7' fill='none' stroke='%23EB570F' stroke-width='2.2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/commun/formulaires.css">
+<style>
+/* =========================================================
+   Lettres KBS — page propre (le reste vient de formulaires.css)
+   ========================================================= */
+.barre-outils{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px 16px;padding:14px 18px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;padding:8px 14px;font-weight:700;font-size:14px;cursor:pointer;color:var(--ink-2)}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--teal);color:#fff}
+:root[data-theme="dark"] .seg button[aria-pressed="true"]{color:#10201C}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .seg button[aria-pressed="true"]{color:#10201C}}
+.duo-l{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:980px){.duo-l{grid-template-columns:1fr}}
+.editeur textarea{width:100%;min-height:560px;font:13.5px/1.55 ui-monospace,Consolas,"Cascadia Mono",monospace;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--ink);resize:vertical;tab-size:2}
+.editeur textarea:focus{outline:3px solid var(--orange);outline-offset:1px}
+.papier-wrap{background:#E9E6E1;border-radius:12px;padding:18px;max-height:760px;overflow:auto}
+.papier{background:#fff;color:#4A4A4A;max-width:640px;margin:0 auto;padding:44px 50px;box-shadow:0 2px 12px rgba(0,0,0,.18);min-height:400px}
+.papier a{color:#EB570F}
+.papier mark.kbs{background:#E4EFEC;color:inherit;border-radius:3px;padding:0 2px}
+.papier mark.manque{background:#FBE9E7;color:#B3261E;border-radius:3px;padding:0 2px;font-weight:700}
+@media (max-width:560px){.papier{padding:24px 18px}.papier-wrap{padding:8px}}
+.verif{padding:12px 14px;border-radius:10px;font-size:14px}
+.verif.ok{background:var(--ok-soft)}
+.verif.ko{background:var(--ko-soft)}
+.verif.warn{background:var(--warn-soft)}
+.verif ul{margin:6px 0 0;padding-left:18px}
+.verif li{margin:3px 0}
+.verif .btn-link{font-weight:600;text-align:left}
+.puces-val{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.puces-val button{font:600 12px/1.2 ui-monospace,Consolas,monospace;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 8px;cursor:pointer;color:var(--teal)}
+.puces-val button:hover{background:var(--teal-soft)}
+.aide-tab{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:8px}
+.aide-tab td{padding:5px 8px;border-top:1px solid var(--line);vertical-align:top}
+.aide-tab td:first-child{font-family:ui-monospace,Consolas,monospace;white-space:nowrap;color:var(--teal)}
+.badge{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--warn-soft);color:var(--warn);margin-left:8px;vertical-align:2px}
+.badge.ok{background:var(--ok-soft);color:var(--ok)}
+.badge.ko{background:var(--ko-soft);color:var(--ko)}
+.table-val{width:100%;border-collapse:collapse;font-size:14px}
+.table-val th{text-align:left;font-size:12.5px;color:var(--ink-2);padding:8px;border-bottom:1px solid var(--line)}
+.table-val td{padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.table-val td:first-child{min-width:190px}
+.table-val code{font-size:12px;color:var(--teal)}
+.table-val input{width:100%;padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:var(--surface-2);font-size:14px}
+.table-val tr.groupe td{background:var(--surface-2);font-weight:700;font-size:13px;color:var(--ink-2)}
+.table-val .src{font-size:11.5px;color:var(--muted)}
+.liste-l{width:100%;border-collapse:collapse;font-size:14px}
+.liste-l th,.liste-l td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+.liste-l th{font-size:12.5px;color:var(--ink-2)}
+.etat-l{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px}
+/* texte lu seulement par les lecteurs d'écran */
+.lecteur{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+.etat-l.modif{background:var(--orange-soft);border-color:transparent}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<noscript><p style="padding:24px;text-align:center">Cette page a besoin de JavaScript.</p></noscript>
+<script src="/commun/fiche.js"></script>
+<script src="/commun/formulaires.js"></script>
+<script src="/commun/lettres-base.js"></script>
+<script src="/commun/lettres.js"></script>
+<script src="/lettres/lettres-page.js"></script>
+</body>
+</html>
