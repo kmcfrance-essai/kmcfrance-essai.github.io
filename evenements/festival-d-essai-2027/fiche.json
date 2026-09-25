@@ -1,0 +1,905 @@
+{
+  "_version": 1,
+  "_aide": "Fiche de l'événement. Voir /evenements/LISEZMOI.md pour le rôle de chaque champ.",
+  "id": "festival-d-essai-2027",
+  "code": "ESSAI2027",
+  "typeEvenement": "festival",
+  "nom": {
+    "fr": "Festival d'essai 2027",
+    "en": "Festival d'essai 2027"
+  },
+  "nomAffiche": {
+    "fr": "Festival d'essai 2027",
+    "en": "Festival d'essai 2027"
+  },
+  "sousTitre": {
+    "fr": "Banc d'essai",
+    "en": "Change your mind, change your life"
+  },
+  "debut": "2027-04-16",
+  "fin": "2027-04-21",
+  "lieu": {
+    "nom": "Château de Segrais",
+    "adresse": "72220 Saint-Mars-d'Outillé",
+    "centre": {
+      "fr": "Centre de Méditation Kadampa France",
+      "en": "Kadampa Meditation Centre France"
+    },
+    "carte": "https://maps.google.com/?q=Chateau+de+Segrais+Saint-Mars-d%27Outille"
+  },
+  "enseignant": {
+    "fr": "G. Sangden",
+    "en": "G. Sangden"
+  },
+  "pageWeb": "https://kadampafrance.org/enseignement/celebration-du-dharma-2026/",
+  "presentation": {
+    "fr": "Vous aussi vous avez envie d'évolution spirituelle, de changement intérieur et même de transformation ? La sagesse bouddhiste part de ce constat merveilleux : notre esprit crée notre réalité. En changeant notre esprit, nous avons le pouvoir de changer notre monde. Lors de cet événement, nous recevrons des enseignements profonds sur la manière de changer notre esprit en suivant les étapes de la voie vers l'Éveil, ou « Lamrim », tels qu'il nous ont été transmis par le maître bouddhiste Djé Tsongkhapa, et présentés pour les personnes du monde moderne par le maître contemporain Guéshé Kelsang Gyatso Rinpoché. Cet événement sera également marqué par la transmission des bénédictions de Tara verte, un bouddha féminin qui est la manifestation de la sagesse de tous les êtres éveillés.",
+    "en": ""
+  },
+  "charte": {
+    "principale": "#51ABD2",
+    "principaleFoncee": "#B62F2F",
+    "principaleClaire": "#FCEEF2",
+    "secondaire": "#33D1B1",
+    "secondaireClaire": "#318F7D",
+    "accent": "#290FEB"
+  },
+  "images": {
+    "visuel": "visuel.jpg",
+    "visuelHD": "visuel-hd.jpg",
+    "fond": "chateau-bg.jpg"
+  },
+  "app": {
+    "firebaseUrl": ""
+  },
+  "streaming": {
+    "finDiffere": "2027-04-27T12:30",
+    "firebase": {
+      "apiKey": "AIzaSyAtu2QzumoaaKReoirTCkL6CfUWUgqULfU",
+      "authDomain": "essai-evenement.firebaseapp.com",
+      "projectId": "essai-evenement",
+      "storageBucket": "essai-evenement.firebasestorage.app",
+      "messagingSenderId": "722332699697",
+      "appId": "1:722332699697:web:d3e10cab6f63ddb6515910"
+    },
+    "emailjs": {
+      "publicKey": "AVNL_-PrO4NqU5RU6",
+      "serviceId": "service_8cjeogb",
+      "templateId": "template_6u839yv"
+    },
+    "expediteur": "Célébration du Dharma 2026",
+    "contact": "inscriptions-festival@kadampafrance.org"
+  },
+  "formulaires": {
+    "firebase": {
+      "apiKey": "AIzaSyBbI3rWLQZhZndpjj3mmrO8p7mfT88b2Lg",
+      "authDomain": "essai-formulaire.firebaseapp.com",
+      "projectId": "essai-formulaire",
+      "storageBucket": "essai-formulaire.firebasestorage.app",
+      "messagingSenderId": "1072224203203",
+      "appId": "1:1072224203203:web:288b8447505d4786950d76"
+    }
+  },
+  "programme": [
+    {
+      "jour": "2027-04-16",
+      "debut": "13:30",
+      "titre": {
+        "fr": "Ouverture des inscriptions",
+        "en": "Registration opens"
+      },
+      "type": "practical",
+      "desc": {
+        "fr": "Bureau des inscriptions au rez-de-chaussée",
+        "en": "Registration desk on the ground floor"
+      }
+    },
+    {
+      "jour": "2027-04-16",
+      "debut": "18:00",
+      "fin": "19:00",
+      "titre": {
+        "fr": "Dîner",
+        "en": "Dinner"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-16",
+      "debut": "20:00",
+      "fin": "21:30",
+      "titre": {
+        "fr": "Introduction",
+        "en": "Introduction"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Introduction — Vendredi soir"
+    },
+    {
+      "jour": "2027-04-17",
+      "debut": "09:00",
+      "fin": "09:50",
+      "titre": {
+        "fr": "Méditation",
+        "en": "Meditation"
+      },
+      "type": "meditation",
+      "seance": "Méditation — Samedi matin"
+    },
+    {
+      "jour": "2027-04-17",
+      "debut": "11:00",
+      "fin": "13:00",
+      "titre": {
+        "fr": "Transmission des bénédictions de Tara Verte",
+        "en": "Green Tara Blessing Empowerment"
+      },
+      "type": "ceremony",
+      "desc": {
+        "fr": "Un moment sacré de connexion avec Tara Verte",
+        "en": "A sacred moment of connection with Green Tara"
+      },
+      "seance": "Transmission des bénédictions de Manjushri",
+      "badge": {
+        "fr": "Transmission",
+        "en": "Empowerment"
+      }
+    },
+    {
+      "jour": "2027-04-17",
+      "debut": "13:15",
+      "fin": "14:15",
+      "titre": {
+        "fr": "Déjeuner",
+        "en": "Lunch"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-17",
+      "debut": "16:30",
+      "fin": "18:00",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Samedi après-midi"
+    },
+    {
+      "jour": "2027-04-17",
+      "debut": "18:15",
+      "fin": "19:15",
+      "titre": {
+        "fr": "Dîner",
+        "en": "Dinner"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-17",
+      "debut": "20:15",
+      "fin": "21:15",
+      "titre": {
+        "fr": "Joyau qui exauce les souhaits",
+        "en": "Wishfulfilling Jewel"
+      },
+      "type": "ceremony",
+      "desc": {
+        "fr": "Prières avec offrandes de nourriture",
+        "en": "Prayers with food offerings"
+      },
+      "seance": "Joyau qui exauce les souhaits — Samedi soir"
+    },
+    {
+      "jour": "2027-04-18",
+      "debut": "09:00",
+      "fin": "10:00",
+      "titre": {
+        "fr": "Méditation",
+        "en": "Meditation"
+      },
+      "type": "meditation",
+      "seance": "Méditation — Dimanche matin"
+    },
+    {
+      "jour": "2027-04-18",
+      "debut": "11:00",
+      "fin": "12:30",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Dimanche matin"
+    },
+    {
+      "jour": "2027-04-18",
+      "debut": "12:45",
+      "fin": "13:45",
+      "titre": {
+        "fr": "Déjeuner",
+        "en": "Lunch"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-18",
+      "debut": "16:30",
+      "fin": "18:00",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Dimanche après-midi"
+    },
+    {
+      "jour": "2027-04-18",
+      "debut": "18:15",
+      "fin": "19:15",
+      "titre": {
+        "fr": "Dîner",
+        "en": "Dinner"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-18",
+      "debut": "20:15",
+      "fin": "21:15",
+      "titre": {
+        "fr": "Joyau qui exauce les souhaits",
+        "en": "Wishfulfilling Jewel"
+      },
+      "type": "ceremony",
+      "desc": {
+        "fr": "Prières avec offrandes de nourriture",
+        "en": "Prayers with food offerings"
+      },
+      "seance": "Joyau qui exauce les souhaits — Dimanche soir"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "09:00",
+      "fin": "10:00",
+      "titre": {
+        "fr": "Méditation",
+        "en": "Meditation"
+      },
+      "type": "meditation",
+      "seance": "Méditation — Lundi matin"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "09:00",
+      "fin": "10:00",
+      "titre": {
+        "fr": "Méditation",
+        "en": "Meditation"
+      },
+      "type": "meditation",
+      "seance": "Méditation — Lundi matin"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "11:00",
+      "fin": "12:30",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Lundi matin"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "11:00",
+      "fin": "12:30",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Lundi matin"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "12:45",
+      "fin": "13:45",
+      "titre": {
+        "fr": "Déjeuner",
+        "en": "Lunch"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "12:45",
+      "fin": "13:45",
+      "titre": {
+        "fr": "Déjeuner",
+        "en": "Lunch"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "14:00",
+      "fin": "17:00",
+      "titre": {
+        "fr": "Entraide — Démontage",
+        "en": "Helping out — Takedown"
+      },
+      "type": "practical",
+      "desc": {
+        "fr": "Tous ensemble pour remettre le château en ordre",
+        "en": "Everyone together to tidy up the château"
+      }
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "16:30",
+      "fin": "18:00",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Lundi après-midi"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "18:15",
+      "fin": "19:15",
+      "titre": {
+        "fr": "Dîner",
+        "en": "Dinner"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-19",
+      "debut": "20:15",
+      "fin": "21:15",
+      "titre": {
+        "fr": "Joyau qui exauce les souhaits",
+        "en": "Wishfulfilling Jewel"
+      },
+      "type": "ceremony",
+      "desc": {
+        "fr": "Prières avec offrandes de nourriture",
+        "en": "Prayers with food offerings"
+      },
+      "seance": "Joyau qui exauce les souhaits — Lundi soir"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "09:00",
+      "fin": "10:00",
+      "titre": {
+        "fr": "Méditation",
+        "en": "Meditation"
+      },
+      "type": "meditation",
+      "seance": "Méditation — Mardi matin"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "09:00",
+      "fin": "10:00",
+      "titre": {
+        "fr": "Méditation",
+        "en": "Meditation"
+      },
+      "type": "meditation",
+      "seance": "Méditation — Mardi matin"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "11:00",
+      "fin": "12:30",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Mardi matin"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "11:00",
+      "fin": "12:30",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Mardi matin"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "12:45",
+      "fin": "13:45",
+      "titre": {
+        "fr": "Déjeuner",
+        "en": "Lunch"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "12:45",
+      "fin": "13:45",
+      "titre": {
+        "fr": "Déjeuner",
+        "en": "Lunch"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "14:00",
+      "fin": "17:00",
+      "titre": {
+        "fr": "Entraide — Démontage",
+        "en": "Helping out — Takedown"
+      },
+      "type": "practical",
+      "desc": {
+        "fr": "Tous ensemble pour remettre le château en ordre",
+        "en": "Everyone together to tidy up the château"
+      }
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "16:30",
+      "fin": "18:00",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Mardi après-midi"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "18:15",
+      "fin": "19:15",
+      "titre": {
+        "fr": "Dîner",
+        "en": "Dinner"
+      },
+      "type": "meal"
+    },
+    {
+      "jour": "2027-04-20",
+      "debut": "20:15",
+      "fin": "21:15",
+      "titre": {
+        "fr": "Joyau qui exauce les souhaits",
+        "en": "Wishfulfilling Jewel"
+      },
+      "type": "ceremony",
+      "desc": {
+        "fr": "Prières avec offrandes de nourriture",
+        "en": "Prayers with food offerings"
+      },
+      "seance": "Joyau qui exauce les souhaits — Mardi soir"
+    },
+    {
+      "jour": "2027-04-21",
+      "debut": "09:00",
+      "fin": "10:00",
+      "titre": {
+        "fr": "Méditation",
+        "en": "Meditation"
+      },
+      "type": "meditation",
+      "seance": "Méditation — Mercredi matin"
+    },
+    {
+      "jour": "2027-04-21",
+      "debut": "09:00",
+      "fin": "10:00",
+      "titre": {
+        "fr": "Méditation",
+        "en": "Meditation"
+      },
+      "type": "meditation",
+      "seance": "Méditation — Mercredi matin"
+    },
+    {
+      "jour": "2027-04-21",
+      "debut": "11:00",
+      "fin": "12:30",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Mercredi matin"
+    },
+    {
+      "jour": "2027-04-21",
+      "debut": "11:00",
+      "fin": "12:30",
+      "titre": {
+        "fr": "Enseignement",
+        "en": "Teaching"
+      },
+      "type": "teaching",
+      "desc": {
+        "fr": "Avec Guèn Kelsang Eupamé",
+        "en": "With Gen Kelsang Eupame"
+      },
+      "seance": "Enseignement — Mercredi matin"
+    }
+  ],
+  "infos": [
+    {
+      "id": "lieu",
+      "titre": {
+        "fr": "Lieu & accès",
+        "en": "Venue & access"
+      },
+      "contenu": {
+        "fr": "<strong>Centre de Méditation Kadampa France</strong><br>Château de Segrais, 72220 Saint-Mars-d'Outillé<br><br><a href=\"https://maps.google.com/?q=Chateau+de+Segrais+Saint-Mars-d%27Outille\" target=\"_blank\" rel=\"noopener\">Ouvrir dans Google Maps ↗</a>",
+        "en": "<strong>Kadampa Meditation Centre France</strong><br>Château de Segrais, 72220 Saint-Mars-d'Outillé<br><br><a href=\"https://maps.google.com/?q=Chateau+de+Segrais+Saint-Mars-d%27Outille\" target=\"_blank\" rel=\"noopener\">Open in Google Maps ↗</a>"
+      }
+    },
+    {
+      "id": "navettes",
+      "titre": {
+        "fr": "Navettes",
+        "en": "Shuttles"
+      },
+      "contenu": {
+        "fr": "<strong>Depuis la gare d'Ecommoy — 5 € par trajet</strong><br><br>Vendredi 27 (arrivées) : 12h30 – 19h15<br>Lundi 30 (départs) : 13h – 18h30<br><br>Pas de navette samedi ni dimanche.<br>Réservation au plus tard le <strong>24 novembre</strong>.<br><br>Tél. : <a href=\"tel:+33243877102\">02 43 87 71 02</a>",
+        "en": "<strong>From Ecommoy station — €5 per trip</strong><br><br>Friday 27 (arrivals): 12:30pm – 7:15pm<br>Monday 30 (departures): 1pm – 6:30pm<br><br>No shuttle on Saturday or Sunday.<br>Book by <strong>24 November</strong>.<br><br>Phone: <a href=\"tel:+33243877102\">02 43 87 71 02</a>"
+      }
+    },
+    {
+      "id": "transport",
+      "titre": {
+        "fr": "Autres transports",
+        "en": "Other transport"
+      },
+      "contenu": {
+        "fr": "<strong>Bus</strong> : Ligne 217 depuis Le Mans → Saint-Mars-d'Outillé, ~2,50 €, ~1h. Puis 15 min à pied.<br><br><strong>Train</strong> : TER Le Mans → gare d'Ecommoy.<br><br><strong>Taxi</strong> : Fouqueray — <a href=\"tel:+33243427368\">02 43 42 73 68</a> (fermé dim.). ~20 € CMK ↔ Ecommoy.<br><br><strong>Covoiturage</strong> : Tableau sur place. <a href=\"https://comparabus.com\" target=\"_blank\" rel=\"noopener\">comparabus.com</a>",
+        "en": "<strong>Bus</strong>: Line 217 from Le Mans → Saint-Mars-d'Outillé, ~€2.50, ~1h. Then 15 min walk.<br><br><strong>Train</strong>: TER Le Mans → Ecommoy station.<br><br><strong>Taxi</strong>: Fouqueray — <a href=\"tel:+33243427368\">02 43 42 73 68</a> (closed Sun). ~€20 CMK ↔ Ecommoy.<br><br><strong>Carpooling</strong>: Board on site. <a href=\"https://comparabus.com\" target=\"_blank\" rel=\"noopener\">comparabus.com</a>"
+      }
+    },
+    {
+      "id": "traduction",
+      "titre": {
+        "fr": "Traduction",
+        "en": "Translation"
+      },
+      "contenu": {
+        "fr": "Traduction simultanée <strong>français → anglais</strong> pour tous les enseignements et méditations. Casques fournis à l'accueil.",
+        "en": "Simultaneous <strong>French → English</strong> translation for all teachings and meditations. Headsets provided at reception."
+      }
+    },
+    {
+      "id": "familles",
+      "titre": {
+        "fr": "Familles & enfants",
+        "en": "Families & children"
+      },
+      "contenu": {
+        "fr": "Une <strong>salle de retransmission vidéo</strong> est disponible pour les familles avec enfants.",
+        "en": "A <strong>video relay room</strong> is available for families with children."
+      }
+    },
+    {
+      "id": "streaming",
+      "titre": {
+        "fr": "Streaming",
+        "en": "Streaming"
+      },
+      "contenu": {
+        "fr": "<strong>Transmission de Tara Verte</strong> : en direct uniquement (sam. 28, 11h–13h).<br><br><strong>Enseignements et prières</strong> : en direct + différé jusqu'au mardi 8 décembre 12h30.",
+        "en": "<strong>Green Tara Empowerment</strong>: live only (Sat 28, 11am–1pm).<br><br><strong>Teachings & prayers</strong>: live + on demand until Tuesday 8 December 12:30pm."
+      }
+    },
+    {
+      "id": "repas-info",
+      "titre": {
+        "fr": "Repas & régimes",
+        "en": "Meals & dietary"
+      },
+      "contenu": {
+        "fr": "Tous les repas sont <strong>100 % végétariens</strong>. Alternative <strong>végan sans gluten</strong> sur demande à l'inscription. Petit-déjeuner inclus.",
+        "en": "All meals are <strong>100% vegetarian</strong>. <strong>Vegan gluten-free</strong> alternative on request at registration. Breakfast included."
+      }
+    },
+    {
+      "id": "contacts",
+      "titre": {
+        "fr": "Contacts",
+        "en": "Contacts"
+      },
+      "contenu": {
+        "fr": "<strong>Inscriptions</strong><br><a href=\"mailto:inscriptions-festival@kadampafrance.org\">inscriptions-festival@kadampafrance.org</a><br><br><strong>Bénévolat</strong><br><a href=\"mailto:benevolat-festival@kadampafrance.org\">benevolat-festival@kadampafrance.org</a><br><br><strong>Navettes</strong><br><a href=\"tel:+33243877102\">02 43 87 71 02</a>",
+        "en": "<strong>Registration</strong><br><a href=\"mailto:inscriptions-festival@kadampafrance.org\">inscriptions-festival@kadampafrance.org</a><br><br><strong>Volunteering</strong><br><a href=\"mailto:benevolat-festival@kadampafrance.org\">benevolat-festival@kadampafrance.org</a><br><br><strong>Shuttles</strong><br><a href=\"tel:+33243877102\">02 43 87 71 02</a>"
+      }
+    }
+  ],
+  "cafe": {
+    "note": {
+      "fr": "Tous les bénéfices soutiennent le Centre de Méditation Kadampa France.",
+      "en": "All proceeds support the Kadampa Meditation Centre France."
+    },
+    "carte": [
+      {
+        "categorie": {
+          "fr": "Boissons chaudes",
+          "en": "Hot drinks"
+        },
+        "nom": {
+          "fr": "Thé (variétés)",
+          "en": "Tea (varieties)"
+        },
+        "prix": "1,50 €"
+      },
+      {
+        "categorie": {
+          "fr": "Boissons chaudes",
+          "en": "Hot drinks"
+        },
+        "nom": {
+          "fr": "Café",
+          "en": "Coffee"
+        },
+        "prix": "2,00 €"
+      },
+      {
+        "categorie": {
+          "fr": "Boissons chaudes",
+          "en": "Hot drinks"
+        },
+        "nom": {
+          "fr": "Chocolat chaud",
+          "en": "Hot chocolate"
+        },
+        "prix": "2,50 €"
+      },
+      {
+        "categorie": {
+          "fr": "Boissons chaudes",
+          "en": "Hot drinks"
+        },
+        "nom": {
+          "fr": "Chaï latte",
+          "en": "Chai latte"
+        },
+        "prix": "3,00 €"
+      },
+      {
+        "categorie": {
+          "fr": "Boissons fraîches",
+          "en": "Cold drinks"
+        },
+        "nom": {
+          "fr": "Jus de fruits",
+          "en": "Fruit juice"
+        },
+        "prix": "2,00 €"
+      },
+      {
+        "categorie": {
+          "fr": "Boissons fraîches",
+          "en": "Cold drinks"
+        },
+        "nom": {
+          "fr": "Eau aromatisée",
+          "en": "Flavoured water"
+        },
+        "prix": "1,00 €"
+      },
+      {
+        "categorie": {
+          "fr": "Pâtisseries",
+          "en": "Pastries"
+        },
+        "nom": {
+          "fr": "Part de gâteau",
+          "en": "Slice of cake"
+        },
+        "prix": "2,50 €"
+      },
+      {
+        "categorie": {
+          "fr": "Pâtisseries",
+          "en": "Pastries"
+        },
+        "nom": {
+          "fr": "Cookie",
+          "en": "Cookie"
+        },
+        "prix": "1,50 €"
+      },
+      {
+        "categorie": {
+          "fr": "Pâtisseries",
+          "en": "Pastries"
+        },
+        "nom": {
+          "fr": "Muffin (végan dispo.)",
+          "en": "Muffin (vegan avail.)"
+        },
+        "prix": "2,00 €"
+      }
+    ],
+    "horaires": [
+      {
+        "jour": "2027-04-16",
+        "ouverture": "16h",
+        "fermeture": "21h30"
+      },
+      {
+        "jour": "2027-04-17",
+        "ouverture": "10h",
+        "fermeture": "21h30"
+      },
+      {
+        "jour": "2027-04-18",
+        "ouverture": "10h",
+        "fermeture": "21h30"
+      },
+      {
+        "jour": "2027-04-19",
+        "ouverture": "10h",
+        "fermeture": "14h"
+      }
+    ]
+  },
+  "boutique": [],
+  "datesCles": [
+    {
+      "date": "2027-01-26T13:00",
+      "texte": "Ouverture des inscriptions (présentiel)"
+    },
+    {
+      "date": "2027-02-09T13:00",
+      "texte": "Ouverture des inscriptions (streaming)"
+    },
+    {
+      "date": "2027-04-02",
+      "texte": "Date limite de paiement du solde"
+    },
+    {
+      "date": "2027-04-13",
+      "texte": "Date limite de réservation des navettes"
+    },
+    {
+      "date": "2027-04-14T09:00",
+      "texte": "Arrivée du séjour de bénévolat (au plus tard 9h)"
+    },
+    {
+      "date": "2027-04-16T13:30",
+      "texte": "Ouverture du bureau des inscriptions · navettes 12h30–19h15"
+    },
+    {
+      "date": "2027-04-17T11:00",
+      "texte": "Transmission des bénédictions de Tara verte"
+    },
+    {
+      "date": "2027-04-19T13:00",
+      "texte": "Dernier jour · navettes retour 13h–18h30 · démontage 14h–17h"
+    },
+    {
+      "date": "2027-04-27T12:30",
+      "texte": "Fin du différé streaming (12h30)"
+    }
+  ],
+  "liens": [
+    {
+      "label": "Page de l'événement",
+      "url": "https://kadampafrance.org/enseignement/celebration-du-dharma-2026/"
+    },
+    {
+      "label": "Formulaire navette",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfjjBKyAddHCxA2P7bgsUo3m-VJbIs4_83zyFrZd6gDe3Pncg/viewform"
+    },
+    {
+      "label": "Formulaire séjour de bénévolat",
+      "url": "https://docs.google.com/forms/d/1TomwWgG6WmjBVTycU3uhT6Pb31xYQpARFe0Y_GD8ZQQ/viewform"
+    },
+    {
+      "label": "Termes et conditions",
+      "url": "https://legacy.kadampabookings.org/#/fr/event/1961/terms"
+    },
+    {
+      "label": "Comment venir",
+      "url": "https://kadampafrance.org/comment-venir/"
+    }
+  ],
+  "contacts": [
+    {
+      "role": "Inscriptions",
+      "qui": "Remboursements, exceptions, questions des participants",
+      "email": "inscriptions-festival@kadampafrance.org"
+    },
+    {
+      "role": "Bénévolat",
+      "qui": "Séjour de bénévolat, rangement après l'événement",
+      "email": "benevolat-festival@kadampafrance.org"
+    },
+    {
+      "role": "Supervision administrative",
+      "qui": "Sylvie & Yannick",
+      "email": "superviseur-admin@kadampafrance.org"
+    },
+    {
+      "role": "Organisation spirituelle",
+      "qui": "Dorjé",
+      "email": "epc@kadampafrance.org"
+    },
+    {
+      "role": "Direction administrative",
+      "qui": "Romain",
+      "email": "directeur.admin@kadampafrance.org"
+    },
+    {
+      "role": "Administration nationale (plan légal)",
+      "qui": "Melody",
+      "email": "admin.national@meditation-paris.org"
+    },
+    {
+      "role": "DSI",
+      "qui": "Outils, hébergement, noms de domaine",
+      "email": "dsi@kadampafrance.org"
+    },
+    {
+      "role": "Navettes",
+      "qui": "Téléphone",
+      "tel": "02 43 87 71 02"
+    }
+  ]
+}
